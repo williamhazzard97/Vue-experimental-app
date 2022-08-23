@@ -1,6 +1,17 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h3>{{ msg }}</h3>
+    
+    <form action="/dashboard">
+      <label for="email">Email:</label>
+      <input type="text" placeholder="Your email address..." name="email">
+      <br>
+      <label for="password">Password:</label>
+      <input type="text" placeholder="Your password..." name="password">
+      <br>
+      <button type="sumbit">Login</button>
+    </form>
+    
   </div>
 </template>
 
